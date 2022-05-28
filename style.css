@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+*{
+    font-family: 'Share Tech Mono', monospace;
+    line-height: 1.618em;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px;
+    margin-top: 3em;
+}
+
+h1, h2, h3, h4{
+    color: black;
+}
+
+h4 {
+    text-align: center;
+}
+
+
+header,
+main,
+footer{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 3em 0;
+}
+
+header h1{
+    font-size: 2em;
+}
+
+header span{
+    font-size: 1.5em;
+    color: black;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    background-color: white;
+}
+
+nav a{
+    padding: .5em 2em;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    background: blue;
+    color: white;
+
+}
+
+section{
+    margin: 1em 0;
+
+    padding: 2em;
+
+    min-height: 20em;
+}
+
+#portfolio{
+    display: grid;
+
+    grid-column-gap: 1em;
+}
+
+#portfolio article{
+    background: grey;
+    color: black;
+    padding: 1em;
+}
+
+#portfolio article img{
+    width: 100%;
+}
+
+#portfolio article p{
+    text-align: center;
+}
+
+section ul{
+    padding-left: 1.5em;
+}
+
+section > p{
+    margin: 1em 0;
+}
+
+footer {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    background: white;
+    color: black;
+    padding: 1em 0;
+    text-align: center;
+    width: 100%;
+
+}
+
+#about img{
+border-radius: 60%;
+    width: 300px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+
